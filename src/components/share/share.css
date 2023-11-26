@@ -1,0 +1,86 @@
+.share{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(194, 194, 194, 0.66);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(194, 194, 194, 0.66);
+    box-shadow: 0px 0px 20px 0px rgba(194, 194, 194, 0.66);
+}
+
+.shareWrapper{
+    padding: 20px;
+}
+
+.shareTop{
+    display: flex;
+    align-items: center;
+}
+
+.shareProfileImg{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.shareInput{
+    border: none;
+    width: 80%;
+    margin-left: 20px;
+}
+
+.shareInput:focus{
+    outline: none;
+}
+
+.shareHr{
+    margin: 20px;
+}
+
+.shareBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shareOptions{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.shareIcon{
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+.shareOptionText{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#iconPhotoVideo{
+    color: #8ef01f;
+}
+
+#iconTag {
+    color: #52c2ff;
+}
+
+#iconLocation {
+    color: #f0341f;
+}
+
+#iconEmoji {
+    color: #ebb42a;
+}
+
+#profileImgBorder {
+    background-color: #52c2ff;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}

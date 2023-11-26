@@ -5,7 +5,7 @@
 }
 
 ::-webkit-scrollbar{
-    width: 5px;
+    width: 8px;
 }
 ::-webkit-scrollbar-track{ /*the container that holds the scroll bar*/
     background-color: #f1f1f1;
