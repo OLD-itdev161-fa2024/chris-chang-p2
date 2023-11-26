@@ -1,0 +1,69 @@
+.sidebar{
+    flex: 3;
+    height: calc(100vh - 50px);
+    overflow-y: scroll; /* sections off the left side div to scroll separately*/
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{ /*the container that holds the scroll bar*/
+    background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb{ /*the part that moves when scrolling*/
+    background-color: rgb(192, 190, 190);
+    border-radius: 5px;
+}
+
+.sidebarWrapper{
+    padding: 20px;
+}
+
+.sidebarList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.sidebarListItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sidebarIcon {
+    margin-right: 15px;
+}
+
+.sidebarButton{
+    width: 150px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.sidebarHr{
+    margin: 20px 0;
+
+}
+
+.sidebarFriendList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.sidebarFriend{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.sidebarFriendImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%; /*Creates a circle on image*/
+    object-fit: cover; /*Centers and crops image without warping*/
+    margin-right: 10px;
+}
