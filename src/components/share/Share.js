@@ -6,9 +6,7 @@ export default function Share() {
     <div className="share">
         <div className="shareWrapper">
             <div className="shareTop">
-                <div id="profileImgBorder">
                     <img src="/assets/person/1.jpeg" alt="" className="shareProfileImg"/>
-                </div>
                 <input 
                     placeholder="What's on your mind? Share it to pandaSocial"
                     className="shareInput"

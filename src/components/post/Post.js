@@ -7,7 +7,7 @@ export default function Post() {
         <div className='postWrapper'>
           <div className='postTop'>
             <div className='postTopLeft'>
-              <img className='postProfileImage' src='/assets/person/1.jpeg'/>
+              <img className='postProfileImage' src='/assets/person/1.jpeg' alt=''/>
               <span className='postUsername'>Jane Doe</span>
               <span className='postDate'>5 min ago</span>
             </div>
@@ -17,12 +17,12 @@ export default function Post() {
           </div>
           <div className='postCenter'>
             <span className='postText'>Hey! It's my first post!!</span>
-            <img className='postImage' src='/assets/post/1.jpeg'/>
+            <img className='postImage' src='/assets/post/1.jpeg' alt=''/>
           </div>
           <div className='postBottom'>
             <div className='postBottomLeft'>
-              <img className='likeIcon' src='assets/like.png'/>
-              <img className='likeIcon' src='assets/heart.png'/>
+              <img className='likeIcon' src='assets/like.png' alt=''/>
+              <img className='likeIcon' src='assets/heart.png' alt=''/>
               <span className='postLikeCounter'>32 people liked it</span>
             </div>
             <div className='postBottomRight'>

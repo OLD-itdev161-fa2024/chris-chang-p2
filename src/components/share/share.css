@@ -22,6 +22,7 @@
     object-fit: cover;
     border-radius: 50%;
     margin: 10px;
+    border: solid 5px #52c2ff;
 }
 
 .shareInput{
@@ -87,11 +88,4 @@
 
 #iconEmoji {
     color: #ebb42a;
-}
-
-#profileImgBorder {
-    background-color: #52c2ff;
-    border-radius: 50%;
-    width: 90px;
-    height: 90px;
 }
