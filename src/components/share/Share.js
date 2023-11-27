@@ -10,7 +10,7 @@ export default function Share() {
                     <img src="/assets/person/1.jpeg" alt="" className="shareProfileImg"/>
                 </div>
                 <input 
-                    placeholder="What's happening? Share it to pandaSocial"
+                    placeholder="What's on your mind? Share it to pandaSocial"
                     className="shareInput"
                 />
             </div>
@@ -32,6 +32,7 @@ export default function Share() {
                     <EmojiEmotions className="shareIcon" id="iconEmoji"/>
                     <span className="shareOptionText">Emojis</span>
                 </div>
+                <button className="shareButton">Share</button>
             </div>
         </div>
     </div>
