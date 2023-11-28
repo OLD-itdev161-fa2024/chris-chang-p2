@@ -81,3 +81,13 @@
     font-weight: 500;
     cursor: pointer;
 }
+
+#linkCreateBtn{
+    text-decoration: none;
+    color: white;
+}
+
+#homeLink{
+    text-decoration: none;
+    color: #52c2ff;
+}

@@ -81,3 +81,22 @@
     font-weight: 500;
     cursor: pointer;
 }
+
+#linkBtn{
+    text-decoration: none;
+    color: white;
+}
+
+#alreadyRegistered{
+    color: #949494;
+    font-style: italic;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#homeLink {
+    text-decoration: none;
+    color: #52c2ff;
+}
