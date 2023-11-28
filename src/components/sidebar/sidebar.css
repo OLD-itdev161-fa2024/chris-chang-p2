@@ -2,6 +2,8 @@
     flex: 3;
     height: calc(100vh - 50px);
     overflow-y: scroll; /* sections off the left side div to scroll separately*/
+    position: sticky; /*keeps the side bar on the left even if user scrolls down*/
+    top: 50px;
 }
 
 ::-webkit-scrollbar{
@@ -54,16 +56,3 @@
     list-style: none;
 }
 
-.sidebarFriend{
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
-}
-
-.sidebarFriendImg{
-    width: 32px;
-    height: 32px;
-    border-radius: 50%; /*Creates a circle on image*/
-    object-fit: cover; /*Centers and crops image without warping*/
-    margin-right: 10px;
-}
