@@ -4,7 +4,7 @@ import { Search, Person, Chat, Notifications } from "@material-ui/icons";
 
 export default function Topbar() {
   return (
-    <nav>
+    <nav id="navSticky">
       <div className="topbarContainer">
         <div className="topbarLeft">
           <Link to='/' className="logo">pandaSocial</Link>

@@ -42,7 +42,7 @@ export default function Sidebar() {
                     </li>
                     <li className="sidebarListItem">
                         <School className="sidebarIcon"/>
-                        <span className="sidebarListItemText">School</span>
+                        <span className="sidebarListItemText">Education</span>
                     </li>
                 </ul>
                 <button className="sidebarButton">Show More</button>
